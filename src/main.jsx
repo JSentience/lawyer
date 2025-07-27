@@ -6,7 +6,6 @@ import Contacts from './components/Contacts/Contacts.jsx';
 import Footer from './components/Footer/Footer.jsx';
 import Header from './components/Header/Header.jsx';
 import Hero from './components/Hero/Hero.jsx';
-import Reviews from './components/Reviews/Reviews.jsx';
 import Services from './components/Services/Services.jsx';
 import './main.css';
 
@@ -17,7 +16,6 @@ createRoot(document.getElementById('root')).render(
 		<About />
 		<Services />
 		<Advantages />
-		<Reviews />
 		<Contacts />
 		<Footer />
 	</StrictMode>,
