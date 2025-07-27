@@ -1,0 +1,19 @@
+.advantages {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.advantage-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  list-style: disc inside;
+  text-align: left;
+}
+
+.advantage-item {
+  font-size: 16px;
+  line-height: 1.5;
+}
