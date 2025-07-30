@@ -1,4 +1,4 @@
-import { StrictMode } from 'react';
+import React, { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import About from './components/About/About.jsx';
 import Advantages from './components/Advantages/Advantages.jsx';
