@@ -1,13 +1,13 @@
 import './Header.css';
 import React from 'react';
-import img from '/img/icons/femida_icon.svg'; // Предположим, что у вас есть логотип в этой папке
+import femidaImg from './femida_icon.svg';
 
 export default function Header() {
 	return (
 		<header className='header'>
 			<div className='header-container'>
 				<div className='logo-container'>
-					<img className='logo' src={img} alt='' />
+					<img className='logo' src={femidaImg} alt='femida' />
 					<h1 className='logo-text'>
 						Юрист <br />
 						Насонова <br /> Марина
